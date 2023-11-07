@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; 
+    padding: 10px;
+    color: white; 
+    height: 100px;
+    border-radius: 20px;
+}
+
+#ContImgLogo {
+    flex: 1; /* Ocupa el espacio disponible */
+}
+
+#BarraInfo {
+    display: flex;
+}
+
+.left-links a, .right-links a {
+    text-decoration: none;
+    color: white; 
+    margin: 0 10px; 
+    font-size: 30px;
+}
+
+.left-links {
+    position: relative;
+    right: 650px;
+}
+
+.LblBtnder {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#ImgLogo {
+    width: 150px; /* Establece el ancho de la imagen en 150 píxeles */
+    height: auto; /* Mantiene la relación de aspecto original de la imagen */
+}

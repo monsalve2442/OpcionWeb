@@ -1,0 +1,44 @@
+body{
+    background: white;
+}
+
+#VideoPrincipal{
+    width: 100%;
+    height: 500px;
+}
+
+#ContBtnEmpezar{
+    text-align: center;
+    text-decoration: none;
+}
+
+#BtnEmpezar{
+    margin: 100px auto;
+    display: block;
+    height: 90px;
+    width: 220px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border:solid black;
+    font-family: 'Playfair Display', serif;
+    border: 3px solid white;
+}
+
+#BtnEmpezar:hover{
+    background-color: #ff00ff;
+    border: 3px solid white;
+}
+
+.brEspacio{
+    padding: 25px;
+}
+
+#ContTxtAgradecimiento{
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
